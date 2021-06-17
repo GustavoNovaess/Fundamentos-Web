@@ -5,39 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+            <li>
+                <a href="aparicoes.html">Aparições</a>
+            </li>
+        </ul>
+    </div>
+    <hr>
 
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato</a>
-        </li>
-    </ul>
+    <h1 class = "mbcontato">Contato</h1>
+    <div>
+        <div class = "center mbcontato font">
+            <p>Se você chegou até aqui provavelmente está perdido.</p>
+        </div>
 
-    <h1>Entre em contato comigo</h1>
+        <div class = "videocontainer">
+            <img class = "wh-contato br-10 mbcontato" src="/assets/img/psyduckconfused.gif" alt="GIF Psyduck Confuso">
+        </div>
+    </div>
+    <hr>
+    <div class = "container mbformulario">
+        <div class = "ml font">
+            <p class = "mbcontato fontform">Mas caso deseje entrar em contato comigo, mande sua mensagem:</p>
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="12"></textarea>
+                <br>
+                <br>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="50" rows="15"></textarea>
-        <br>
-        <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div>
+            <img class = "wh-contato br-10 p-20" src="assets/img/psyduckcheer.gif" alt="GIF do Psyduck te animando">
+        </div>
+    </div>
 
-        <button>Enviar</button>
-    </form>
+    <hr>
 
-    <h2>Endereço:</h2>
+    <!--<h2>Endereço:</h2>
     <p>Shopping Aricanduva</p>
     <p>São Paulo - SP</p>
 
@@ -48,7 +73,23 @@
         style="border:0;" 
         allowfullscreen="" 
         loading="lazy">
-    </iframe>
+    </iframe> -->
+
+    <footer>
+
+        <div class="videocontainer">
+            <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank">  
+                <img class="wh p-20" src="assets/img/linkedin.png" alt="Link do linkedin"> 
+            </a>
+            <a href="https://github.com/GustavoNovaess" target="_blank">
+                <img class="wh p-20" src="assets/img/github.png" alt="Link do GitHub">
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados para: Gustavo Novaes&copy;
+        </p>
+    </footer>
 
 </body>
 

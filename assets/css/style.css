@@ -1,0 +1,203 @@
+/* Reset de navegador 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+*/
+
+/*Estilo da Header*/
+/*#headerbackground{
+    background-color: yellow;
+    height: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}*/
+
+
+/* Estilos do Site*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    
+}
+
+/*Estilos da página index.html*/
+
+/*Tags*/
+
+body{
+    background-image: url(https://cdn.wallpapersafari.com/60/95/a1juBV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+    font-family: Impact;
+}
+
+/*Classes*/
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.videocontainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.center p{
+    text-align: center;
+}
+
+.lefttext{
+    text-align: left;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.br-10 {
+    border-radius: 10%;
+}
+
+.br-20 {
+    border-radius: 20%;
+}
+
+.wh {
+    height: 80px;
+    width: 80px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.video{
+    text-align: center;
+    font-family: Impact;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+/*Id's*/
+
+#menu {
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 30px;
+}
+
+#menu li a {
+    text-decoration: none;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    color:rgb(208, 255, 0);
+    font: status-bar;
+    font-size: 30px;
+    font-family: Impact;
+}
+
+#menu li a:hover {
+    font-size: 42px;
+}
+
+.p-30 {
+    padding: 20px;
+}
+
+.mbcontato {
+    margin-bottom: 25px;
+}
+
+
+/*Estilos da página contato.html*/
+
+/*Classes*/
+.wh-contato{
+    width: 400px;
+    height: 400px;
+}
+
+.mbformulario {
+    margin: 10px;
+}
+
+.fontform {
+    font-size: 17pt;
+}
+
+/*Estilos da página aparicoes.html*/
+
+.space{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wh-aparicoes{
+    width: 200px;
+    height: 200px;
+}
+
+.font {
+    font-size: 15pt;
+}
+.mzero {
+    margin: 0 0 0 20px;
+}
+
+#aparicoes p a {
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+}
+
+#aparicoes p a:hover {
+    color: rgb(30, 0, 202);
+}
+
+#aparicoes h2 {
+    margin-top: 20px;
+    font-family: Impact;
+    font-size: 25pt;
+}
+
+#aparicoes h3 {
+    font-family: Impact;
+    font-size: 20pt;
+}
+
