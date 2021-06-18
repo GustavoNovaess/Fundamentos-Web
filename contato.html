@@ -20,6 +20,10 @@
             <li>
                 <a href="aparicoes.html">Aparições</a>
             </li>
+            <li>
+                <a href="pokeball.html">?????</a>
+            </li>
+
         </ul>
     </div>
     <hr>
@@ -31,7 +35,9 @@
         </div>
 
         <div class = "videocontainer">
-            <img class = "wh-contato br-10 mbcontato" src="/assets/img/psyduckconfused.gif" alt="GIF Psyduck Confuso">
+            <img class = "wh-contato br-10 mbcontato" 
+                src="/assets/img/psyduckconfused.gif" 
+                alt="GIF Psyduck Confuso">
         </div>
     </div>
     <hr>
@@ -39,24 +45,33 @@
         <div class = "ml font">
             <p class = "mbcontato fontform">Mas caso deseje entrar em contato comigo, mande sua mensagem:</p>
             <form>
-                <label for="nome">Nome:</label> <br>
-                <input type="text" id="nome">
-                <br>
-                <br>
-                <label for="email">Email:</label> <br>
-                <input type="email" id="email">
-                <br>
-                <br>
-                <label for="assunto">Assunto:</label> <br>
-                <textarea name="assunto" id="assunto" cols="60" rows="12"></textarea>
-                <br>
+
+                <label class = "impact font" for="nome">Nome:</label> <br>
+                <input type="text" id="nome" onkeyup ='validaNome()'>
+                <div id = "txtNome" class = "divvalidation mvalidation"></div>
+
                 <br>
 
-                <button>Enviar</button>
+                <label class = "impact font" for="email">Email:</label> <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id = "txtEmail" class = "divvalidation mvalidation"></div>
+
+                <br>
+
+                <label class = "impact font" for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="12" onkeyup="validaAssunto()"></textarea>
+                <div id = "txtAssunto" class = "divvalidation mvalidation"></div>
+
+                <button class = "button" onclick="return enviar()">Enviar</button>
             </form>
         </div>
         <div>
-            <img class = "wh-contato br-10 p-20" src="assets/img/psyduckcheer.gif" alt="GIF do Psyduck te animando">
+            <img class = "wh-contato br-10 p-20" 
+                src="assets/img/psyduckcheer.gif" 
+                alt="GIF do Psyduck te animando"
+                id = "gif"
+                onmouseover ="gifZoom()"
+                onmouseout = "gifNormal()">
         </div>
     </div>
 
@@ -79,17 +94,24 @@
 
         <div class="videocontainer">
             <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank">  
-                <img class="wh p-20" src="assets/img/linkedin.png" alt="Link do linkedin"> 
+                <img class="wh p-20" 
+                    src="assets/img/linkedin.png" 
+                    alt="Link do linkedin"> 
             </a>
             <a href="https://github.com/GustavoNovaess" target="_blank">
-                <img class="wh p-20" src="assets/img/github.png" alt="Link do GitHub">
+                <img class="wh p-20" 
+                    src="assets/img/github.png" 
+                    alt="Link do GitHub">
             </a>
         </div>
 
-        <p class="center">
+        <p class="center"> <b>
             Todos os direitos reservados para: Gustavo Novaes&copy;
+            </b>
         </p>
     </footer>
+
+    <script src="/assets/js/script.js"></script>
 
 </body>
 
